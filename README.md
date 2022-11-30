@@ -1,6 +1,6 @@
 # 215g
 ```
-2 way data biding
-  ^            ^
-  +------------+ 15 characters
+2 way data binding
+  ^             ^
+  +-------------+ 15 characters
 ```

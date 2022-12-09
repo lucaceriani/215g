@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>215g - test</title>
+    <script src="215g.js"></script>
+    <style>
+      body {
+        background: #012;
+        font-size: 32px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="my-input" value="ciao" />
+    <button onclick="setVal('hello :D')">hello</button>
+    <button onclick="alert(getVal())">hello</button>
+    <p><span id="random-number">???</span><br /><button onclick="setRandomNumber(Math.random())">random</button></p>
+    <script>
+      const [getVal, setVal] = G512("#my-input");
+      const setRandomNumber = G511("#random-number");
+      function update() {
+        setVal("Hello, world!");
+      }
+    </script>
+  </body>
+</html>
